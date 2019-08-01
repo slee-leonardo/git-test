@@ -34,7 +34,7 @@ pipeline {
                         agent {
                                 docker {
                                         reuseNode false
-					image 'ubuntu'
+					image 'ubuntu:ubuntu:14.04'
                                         }
 			}
 				steps {
