@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Stage 3') {
+        stage('Stage One') {
                 steps {
                         echo 'Commit changes recognised'
 	    	      }
